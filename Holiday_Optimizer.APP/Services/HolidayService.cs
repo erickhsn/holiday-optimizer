@@ -59,17 +59,14 @@ namespace Holiday_Optimizer.APP.Services
             var holidays = _holidayClientRequest.GetAllCountryHolidays();
 
             holidays = (from a in holidays
-                            let x = a.Where(x => x.Global == false)
-                              select x.ToList()).ToArray();
+                        let x = a.Where(x => x.Global == false)
+                        select x.ToList()).ToArray();
             var biggest = holidays.OrderByDescending(x => x.Count);
-            
+
             var countryInfo = _holidayClientRequest.GetCountryInfo(biggest.FirstOrDefault().FirstOrDefault().CountryCode);
 
             return countryInfo;
         }
-
-        // TODO: apagar tudo que é comum e fazer o count normal
-        // https://stackoverflow.com/questions/7340757/c-sharp-list-removing-items-while-looping-iterating
 
     }
 }
