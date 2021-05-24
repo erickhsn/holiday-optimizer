@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Holiday_Optimizer.API", "Holiday_Optimizer\Holiday_Optimizer.API.csproj", "{A1802193-4DEF-4282-B357-D59C671FC436}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Holiday_Optimizer.API", "Holiday_Optimizer.API\Holiday_Optimizer.API.csproj", "{A1802193-4DEF-4282-B357-D59C671FC436}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Holiday_Optimizer.APP", "APP\Holiday_Optimizer.APP.csproj", "{82DA1559-F170-4FA1-BBFB-EA2A45F0503B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Holiday_Optimizer.APP", "Holiday_Optimizer.APP\Holiday_Optimizer.APP.csproj", "{82DA1559-F170-4FA1-BBFB-EA2A45F0503B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holiday_Optimizer.TEST", "Holiday_Optimizer.TEST\Holiday_Optimizer.TEST.csproj", "{A0E75DFF-864D-4D33-8DAA-C5C1C2AC1A59}"
 EndProject
